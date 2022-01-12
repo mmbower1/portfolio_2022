@@ -1,0 +1,63 @@
+.homepage-paragraph {
+  font-size: 20px;
+  margin: auto;
+  line-height: 3rem;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 3rem;
+}
+
+.head-photo {
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 10px;
+  width: 165px;
+}
+
+.hero {
+  background-image: url('../../img/blueConnector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+  z-index: -2;
+}
+
+.hero h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.hero::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  content: '';
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 700px) {
+  .lead {
+    font-size: 1rem;
+  }
+}
