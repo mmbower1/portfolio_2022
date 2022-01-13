@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio_2022=this.webpackJsonpportfolio_2022||[]).push([[4],{40:function(o,t,n){"use strict";n.r(t);var e=n(0),i=n.n(e);t.default=function(){return i.a.createElement("div",null,"Portfolio")}}}]);
+//# sourceMappingURL=4.3382a5e4.chunk.js.map
