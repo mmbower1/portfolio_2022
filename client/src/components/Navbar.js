@@ -9,10 +9,8 @@ const Navbar = () => {
       </Link>
       <Link to="/portfolio">Portfolio</Link>
       <Link to="/resume">Resume</Link>
+      <Link to="/videos">Videos</Link>
       <Link to="/about">About</Link>
-      <Link to="javascript:void(0);" className="icon" onclick="myFunction()">
-        <i className="fa fa-bars"></i>
-      </Link>
     </div>
   );
 };

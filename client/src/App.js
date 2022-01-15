@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // components
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Spinner from "./components/Spinner";
 
@@ -29,6 +30,7 @@ function App() {
               <Navbar />
               <Route exact path="/" component={Home} />
               <Route exact path="/portfolio" component={Portfolio} />
+              <Footer />
             </div>
           </Suspense>
         </Switch>

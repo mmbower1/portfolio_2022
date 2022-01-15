@@ -3,7 +3,7 @@ import headPhoto from "../img/headshot.png";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <div className="hero">
         <div className="container">
           <div className="dark-overlay">
@@ -26,12 +26,15 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <br />
+      <hr className="dashed-divider-top"></hr>
       <div className="homepage-paragraph">
-        I am from Davis, California and lived in Santa Barbara and San Jose for
-        college. Now currently Sacramento as a full-time dev! I have an older
-        sister, step-brother and a 3 year old dog, Atlas. As more of an
+        <h2>How the coding journey began...</h2>
+        <br />I am from Davis, CA and lived in Santa Barbara and San Jose for
+        college. Now currently in Sacramento as a full-time dev! I have an older
+        sister, step-brother and a 5 year old dog, Atlas. As more of an
         independent person, I enjoy food, music, exercising, traveling, sports,
-        and growing as a person everyday. Summer of 2017, after a road-trip to
+        and growing as an adult everyday. Summer of 2017, after a road-trip to
         Kentucky while visiting friends with a buddy of mine, that's when I was
         inspired to finally commit my life to computer programming and web
         development. I have always carried a nerdy side to me, always craving
@@ -41,11 +44,14 @@ const Home = () => {
         But now, one day, I would love to engineer for something upcoming and
         unique like the blockchain industry to help expand its potential
         revolutionary uses. Programming for the sports industry is my other
-        dream as well. I'm 29, haven't been taking life for granted for a some
+        dream as well. I'm 30, haven't been taking life for granted for a some
         time now, and today is the first day of the rest of my life. The journey
         feels perfect because I feel I can accomplish anything after
         understanding coding and how the internet works.
       </div>
+      <br />
+      <hr className="dashed-divider-bottom"></hr>
+      <div className="lower-homepage">hi</div>
     </div>
   );
 };
