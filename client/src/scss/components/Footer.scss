@@ -1,9 +1,21 @@
 .footer {
+  align-items: center;
   background: linear-gradient(0.25turn, #022c3e, #094e4e, #0b426e);
   bottom: 0;
   color: white;
   height: 20rem;
+  display: flex;
+  justify-content: space-between;
   left: 0;
   width: 100%;
-  text-align: center;
+}
+
+.footer-child {
+  margin: 0 200px;
+}
+
+.footer-header {
+  align-self: start;
+  position: relative;
+  left: 50%;
 }

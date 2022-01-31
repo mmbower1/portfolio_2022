@@ -1,3 +1,9 @@
+.block-container {
+  display: flex;
+  justify-content: center;
+  z-index: -1000;
+}
+
 .dashed-divider-top {
   border-top: 3px dashed #bbb;
 }

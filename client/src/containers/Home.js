@@ -1,5 +1,6 @@
 import React from "react";
 import headPhoto from "../img/headshot.png";
+import Block from "../components/Block";
 
 const Home = () => {
   return (
@@ -14,13 +15,11 @@ const Home = () => {
                 Full-Stack (MERN) Engineer, Content-Creator, Investor, and
                 Entrepreneur based in Northern California.
               </p>
-              <div className="buttons">
-                <a href="register.html" className="btn btn-primary">
-                  Sign Up
-                </a>
-                <a href="login.html" className="btn btn-light">
-                  Login
-                </a>
+              <div className="block-container">
+                {/* <Block />
+                <Block />
+                <Block />
+                <Block /> */}
               </div>
             </div>
           </div>
