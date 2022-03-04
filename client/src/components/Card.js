@@ -1,14 +1,12 @@
 import React from "react";
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div className="card">
-      <div className="container">
-        <h4>
-          <b>John Doe</b>
-        </h4>
-        <p>Architect & Engineer</p>s
-      </div>
+    <div className="card-container">
+      <img alt="mern photo" src={`/data.json/${props.image}`} />
+      {/* monster comes off of props because monster is a prop in CardList, where Card is imported */}
+      <h2>{props.mernName}</h2>
+      {/* <p>{props.email}</p> */}
     </div>
   );
 };

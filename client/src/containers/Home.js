@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import headPhoto from "../img/headshot.png";
 import Card from "../components/Card";
+import CardList from "../components/CardList";
+import axios from "axios";
 
 const Home = () => {
+  const [mernNames, setMernnames] = useState([]);
+
+  const fetchApi = async () => {
+    const url = "../../../json/data.json";
+    try {
+      const res = await fetch(url);
+      const json = await res.json();
+      console.log(json);
+    } catch (err) {
+      console.log("error", err);
+    }
+  };
+
   return (
     <div className="home-container">
       <div className="hero">
@@ -15,14 +30,7 @@ const Home = () => {
                 Full-Stack (MERN) Engineer, Content-Creator, Investor, and
                 Entrepreneur based in Northern California.
               </p>
-              <div className="mern">
-                <Card className="m">
-                  <img src="" alt="" />
-                </Card>
-                <Card className="e">e</Card>
-                <Card className="r">r</Card>
-                <Card className="n">n</Card>
-              </div>
+              <CardList mernNames={mernNames} />
               <div className="block-container">
                 {/* <Block />
                 <Block />
