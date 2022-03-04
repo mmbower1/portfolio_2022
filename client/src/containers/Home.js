@@ -1,6 +1,6 @@
 import React from "react";
 import headPhoto from "../img/headshot.png";
-import Block from "../components/Block";
+import Card from "../components/Card";
 
 const Home = () => {
   return (
@@ -15,6 +15,14 @@ const Home = () => {
                 Full-Stack (MERN) Engineer, Content-Creator, Investor, and
                 Entrepreneur based in Northern California.
               </p>
+              <div className="mern">
+                <Card className="m">
+                  <img src="" alt="" />
+                </Card>
+                <Card className="e">e</Card>
+                <Card className="r">r</Card>
+                <Card className="n">n</Card>
+              </div>
               <div className="block-container">
                 {/* <Block />
                 <Block />
