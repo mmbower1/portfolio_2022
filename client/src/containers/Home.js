@@ -5,18 +5,25 @@ import CardList from "../components/CardList";
 import axios from "axios";
 
 const Home = () => {
+  // console.log(mernNames);
   const [mernNames, setMernnames] = useState([]);
 
-  const fetchApi = async () => {
-    const url = "../../../json/data.json";
-    try {
-      const res = await fetch(url);
-      const json = await res.json();
-      console.log(json);
-    } catch (err) {
-      console.log("error", err);
-    }
-  };
+  // const fetchApi = async () => {
+  //   const url = "data.json";
+  //   try {
+  //     const res = await fetch(url);
+  //     console.log("res", res);
+  //     const json = await JSON.parse(res.json());
+  //     console.log("jjson", json);
+  //     setMernnames(json);
+  //   } catch (err) {
+  //     console.log("error", err);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   fetchApi();
+  // }, []);
 
   return (
     <div className="home-container">
@@ -30,7 +37,7 @@ const Home = () => {
                 Full-Stack (MERN) Engineer, Content-Creator, Investor, and
                 Entrepreneur based in Northern California.
               </p>
-              <CardList mernNames={mernNames} />
+              <CardList />
               <div className="block-container">
                 {/* <Block />
                 <Block />
