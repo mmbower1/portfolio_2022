@@ -2,21 +2,21 @@
   {
     "id": 1,
     "name": "Mongo",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Finfinapps.com%2Fobira-hosting%2Fmongodb-logo%2F&psig=AOvVaw2Gs9KC1e6iNaQs-82vNpZ8&ust=1646457949271000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLCvj-nbq_YCFQAAAAAdAAAAABAD"
+    "image": "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png"
   },
   {
     "id": 2,
     "name": "Express",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub-wiki-see.page%2Fm%2FStanBankras%2Fdating-app-project%2Fwiki%2FBE-1%3A-Setup-project&psig=AOvVaw07P0Zw-v4AEIdz9XnGzF0t&ust=1646458011666000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPif4oTcq_YCFQAAAAAdAAAAABAP"
+    "image": "https://miro.medium.com/max/1400/1*i2fRBk3GsYLeUk_Rh7AzHw.png"
   },
   {
     "id": 3,
     "name": "React",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FToTJoxw_icon-react-js-logo-hd-png-download%2F&psig=AOvVaw07KZADpXer_9jBbSzNQhqf&ust=1646458051200000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjMl5jcq_YCFQAAAAAdAAAAABAD"
+    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--3zWuwYa3--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pdib9r9rk5j1m7oala1p.png"
   },
   {
     "id": 4,
     "name": "Node",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngset.com%2Fdownload-free-png-gzatk&psig=AOvVaw3kIjEqm-atfdkYbQ16CYV8&ust=1646458076483000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjKmaLcq_YCFQAAAAAdAAAAABAD"
+    "image": "https://www.cloudsavvyit.com/p/uploads/2019/07/2350564e.png?width=1198&trim=1,1&bg-color=000&pad=1,1"
   }
 ]
