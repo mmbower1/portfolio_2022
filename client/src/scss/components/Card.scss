@@ -1,18 +1,19 @@
 .card-container {
   // background-color: #199292;
   backface-visibility: hidden;
-  border: 1px solid grey;
+  border: 3px solid grey;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
+  height: 16em;
   flex-direction: column;
   -moz-osx-font-smoothing: grayscale;
-  padding: 15px;
+  padding: 10px;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
 
   img {
-    height: 10em;
+    height: 11em;
     width: 100%;
   }
 }
