@@ -5,10 +5,10 @@
   height: 17em;
   margin: 0 auto;
   margin-top: 3em;
+  
 
   :nth-child(n+5):nth-child(-n+13){
     height: 200px;
-    grid-template-rows: auto;
     width: 200px;
   }
 }
