@@ -48,6 +48,11 @@ body {
   }
 }
 
+i {
+  height: 20px;
+  width: 20px;
+}
+
 ul {
   list-style: none;
 }
@@ -55,4 +60,16 @@ ul {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media(max-width: 767px) {
+  .footer-col {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+}
+@media(max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
 }

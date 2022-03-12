@@ -41,7 +41,7 @@ if (process.env.NODE_ENV !== "production") {
 // bodyparser middleware, handles http requests
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// init middleware
+// init middleware. allows req to not return undefined
 app.use(express.json({ extended: false }));
 
 // shows logs of user activity in terminal.
@@ -60,8 +60,8 @@ app.use(function (req, res, next) {
 });
 
 // access routes
-app.use("/login", require("./routes/homepage"));
-// app.use('/register', require('./routes/register'));
+app.use("/home", require("./routes/homepage"));
+app.use("/users", require("./routes/users"));
 // app.use('/profile', require('./routes/profile'));
 // app.use('/stripe', require('./routes/stripe'));
 
