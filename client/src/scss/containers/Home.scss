@@ -24,7 +24,6 @@
 .head-photo {
   border-radius: 50%;
   height: 150px;
-  margin-top: 10px;
   width: 170px;
 }
 
@@ -72,6 +71,7 @@
 
 .lower-homepage {
   background-image: url('../../img/blueConnector.jpg');
+  // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../img/blueConnector.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(0 200px, 100% 0, 100% 800px, 0 100%);

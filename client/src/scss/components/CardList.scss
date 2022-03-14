@@ -1,14 +1,15 @@
 .card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
   height: 17em;
   margin: 0 auto;
   margin-top: 3em;
-  
 
-  :nth-child(n+5):nth-child(-n+13){
-    height: 200px;
-    width: 200px;
+  :nth-child(n+5):nth-child(-n+13) {
+    // grid-row: 2;
+    height: 160px;
+    width: 160px;
+    margin-left: 65px;
   }
 }

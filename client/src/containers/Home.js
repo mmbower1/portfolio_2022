@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import headPhoto from "../img/headshot.png";
+import axios from "axios";
+
+// components
 import Card from "../components/Card";
 import CardList from "../components/CardList";
-import axios from "axios";
+import Login from "../components/Login";
+import Register from "../components/Register";
 
 const Home = () => {
   // console.log(mernNames);
@@ -73,7 +77,10 @@ const Home = () => {
       </div>
       <br />
       <hr className="dashed-divider-bottom"></hr>
-      <div className="lower-homepage">hi</div>
+      <div className="lower-homepage">
+        <Register />
+        <Login />
+      </div>
     </div>
   );
 };
