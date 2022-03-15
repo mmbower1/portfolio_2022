@@ -78,6 +78,23 @@
   height: 100vh;
   z-index: -2;
   position: relative;
+
+  .left {
+    h1 { color: green };
+    color: #fff;
+    float: left;
+    width: 50%;
+    // z-index: 1000;
+  }
+
+  .right {
+    h1 { color: green };
+    color: #fff;
+    float: right;
+    width: 50%;
+    // z-index: 1000;
+
+  }
 }
 
 .mern {

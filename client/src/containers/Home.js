@@ -78,8 +78,11 @@ const Home = () => {
       <br />
       <hr className="dashed-divider-bottom"></hr>
       <div className="lower-homepage">
-        <Register />
-        <Login />
+        <div className="left"></div>
+        <div className="right">
+          <Register />
+          <Login />
+        </div>
       </div>
     </div>
   );

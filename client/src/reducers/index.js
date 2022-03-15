@@ -1,10 +1,9 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
 // redux persist for localStorage
 // import { persistReducer } from 'redux-persist';
 // import storage from 'redux-persist/lib/storage';
 // reducers
-// import subscribe from './subscription';
-// import profile from './profile';
+import { userLoginReducer, userRegisterReducer } from "./userReducers";
 
 // const persistConfig = {
 //   key: 'root',
@@ -13,8 +12,8 @@ import { combineReducers } from 'redux';
 // }
 
 const rootReducer = combineReducers({
-  // subscribe
-  // profile
+  userLoginReducer,
+  userRegisterReducer,
 });
 
 // export default persistReducer(persistConfig, rootReducer);
