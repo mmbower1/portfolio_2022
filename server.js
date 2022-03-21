@@ -80,5 +80,7 @@ app.use(errorHandler);
 // app.get("/", (req, res) => res.send("API Running"));
 
 app.listen(PORT, () =>
-  console.log(`>>> portfolio_2022 Server started on port ${PORT}`.white.bold)
+  console.log(
+    `>>> portfolio_2022 Server started on port ${PORT}`.brightBlue.bold
+  )
 );

@@ -1,6 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { register } from "../actions/userActions";
 
 const Register = () => {
+  const dispatch = useDispatch();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,6 +20,7 @@ const Register = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    dispatch(register(name, email));
   };
 
   return (
