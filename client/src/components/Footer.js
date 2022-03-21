@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div class="footer">
+    <div className="footer">
       <div className="container">
         <div className="row">
           <div className="footer-col">
             <h4>Services</h4>
             <ul>
               <li>
-                <a href="#">MB Tutorials</a>
+                <Link to="#">MB Tutorials</Link>
               </li>
               <li>
-                <a href="#">Fiverr</a>
+                <Link to="#">Fiverr</Link>
               </li>
               <li>
-                <a href="#">Craigslist</a>
+                <Link to="#">Craigslist</Link>
               </li>
             </ul>
           </div>
@@ -23,29 +24,29 @@ const Footer = () => {
             <h4>Socials</h4>
             <ul>
               <li>
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-github"></i> Github
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-linkedin"></i> Linkedin
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-youtube"></i> Youtube
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-twitter"></i> Twitter
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-twitch"></i> Twitch
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

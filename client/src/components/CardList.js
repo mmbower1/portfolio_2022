@@ -9,7 +9,7 @@ const CardList = () => {
     <div className="card-list">
       {/* mernNames comes off props because its a prop in CardList compponent in Home.js */}
       {mernNames.map((mernName) => (
-        <Card name={mernName.name} image={mernName.image} />
+        <Card key={mernName.id} name={mernName.name} image={mernName.image} />
       ))}
     </div>
   );
