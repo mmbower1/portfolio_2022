@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { login } from "../actions/userActions";
 
 const Login = () => {
@@ -24,7 +24,7 @@ const Login = () => {
   };
 
   return (
-    <div className="heading">
+    <div className="login-container">
       <h1>
         <i className="fa-solid fa-check"></i> Login
       </h1>

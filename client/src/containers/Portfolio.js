@@ -1,11 +1,10 @@
 import React from "react";
-import Card from "../components/Card";
+// import resume from "../img/resume";
 
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
-      {/* <Card /> */}
-      hi
+      {/* <img src={resume} alt="resume" /> */}
     </div>
   );
 };

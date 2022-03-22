@@ -1,41 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import headPhoto from "../img/headshot.png";
-import axios from "axios";
 
 // components
-import Card from "../components/Card";
 import CardList from "../components/CardList";
 import Login from "../components/Login";
 import Register from "../components/Register";
 
 const Home = () => {
-  // console.log(mernNames);
-  const [mernNames, setMernnames] = useState([]);
-
-  // const fetchApi = async () => {
-  //   const url = "data.json";
-  //   try {
-  //     const res = await fetch(url);
-  //     console.log("res", res);
-  //     const json = await JSON.parse(res.json());
-  //     console.log("jjson", json);
-  //     setMernnames(json);
-  //   } catch (err) {
-  //     console.log("error", err);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchApi();
-  // }, []);
-
   return (
     <div className="home-container">
       <div className="hero">
         <div className="container">
           <div className="dark-overlay">
             <div className="landing-inner">
-              <img src={headPhoto} alt="head-photo" className="head-photo" />
+              <img src={headPhoto} alt="head-pic" className="head-photo" />
               <h1 className="x-large">Matthew Michael Chapman Bower</h1>
               <p className="lead">
                 Full-Stack (MERN) Engineer, Content-Creator, Investor, and
