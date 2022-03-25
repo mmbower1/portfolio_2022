@@ -11,16 +11,19 @@ const Login = () => {
   });
   const { name, email } = formData;
 
-  const onChange = (e) => {
-    setFormData((prevState) => ({
-      ...prevState,
-      [e.target.name]: e.target.value,
-    }));
-  };
+  const onChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const onSubmit = (e) => {
     e.preventDefault();
-    dispatch(login(name, email));
+    if (name && email) {
+      alert("registered!");
+      // setAlert(`Welcome`, 'success');
+      dispatch(login(name, email));
+    } else {
+      // setAlert('Invalid Credentials', 'danger');
+      alert("error");
+    }
   };
 
   return (
