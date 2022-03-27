@@ -13,3 +13,10 @@
     margin-left: 65px;
   }
 }
+
+@media (max-width: 1170px) {
+  .card-list {
+    display: grid;
+    display: none;
+  }
+}

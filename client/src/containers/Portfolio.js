@@ -1,10 +1,11 @@
 import React from "react";
 // import resume from "../img/resume";
+import CardList from "../components/Card";
 
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
-      {/* <img src={resume} alt="resume" /> */}
+      <CardList />
     </div>
   );
 };

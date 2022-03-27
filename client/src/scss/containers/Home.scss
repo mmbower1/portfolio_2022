@@ -19,6 +19,10 @@
   overflow: hidden;
   padding: 0 2rem;
   margin-top: 3rem;
+
+  h2 {
+    margin-left: 5rem;
+  }
 }
 
 .head-photo {
@@ -34,13 +38,17 @@
   background-position: bottom center;
   color: #fff;
   display: flex;
-  height: 100vh;
+  height: 130vh;
   justify-content: center;
   margin-bottom: 20px;
   position: relative;
   text-align: center;
   z-index: -2;
   filter: blur(0px);
+
+  .container {
+    margin-top: 10em;
+  }
 }
 
 .hero h1 {
@@ -99,6 +107,17 @@
 
 .mern {
   display: block;
+}
+
+@media (max-width: 1170px) {
+  .hero h1 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  .hero p {
+    line-height: 2rem;
+  }
 }
 
 @media (max-width: 700px) {
