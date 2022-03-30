@@ -118,6 +118,13 @@
   .hero p {
     line-height: 2rem;
   }
+
+  .homepage-paragraph {
+    line-height: 2rem;
+    h2 {
+      text-align: center;
+    }
+  }
 }
 
 @media (max-width: 700px) {
