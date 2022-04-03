@@ -28,9 +28,7 @@ const Register = () => {
 
   return (
     <div className="register-container">
-      <h1>
-        <i className="fa-solid fa-user-plus"></i> Register
-      </h1>
+      <h1>{/* <i className="fa-solid fa-user-plus"></i> Register */}</h1>
       <div className="form">
         <form action="" onSubmit={onSubmit}>
           <div className="form-group">

@@ -19,12 +19,6 @@ const Home = () => {
               Entrepreneur based in Northern California.
             </p>
             <CardList />
-            <div className="block-container">
-              {/* <Block />
-                <Block />
-                <Block />
-                <Block /> */}
-            </div>
           </div>
         </div>
       </div>
