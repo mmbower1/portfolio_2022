@@ -17,9 +17,8 @@ import {
 import { Provider } from "react-redux";
 
 // containers
-const About = lazy(() => import("./containers/About"));
 const Home = lazy(() => import("./containers/Home"));
-const Portfolio = lazy(() => import("./containers/Portfolio"));
+const Subscribe = lazy(() => import("./containers/Subscribe"));
 
 function App() {
   return (
@@ -30,8 +29,7 @@ function App() {
             <div className="App">
               <Navbar />
               <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/subscribe" component={Subscribe} />
               <Footer />
             </div>
           </Suspense>

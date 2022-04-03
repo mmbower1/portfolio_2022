@@ -11,21 +11,19 @@ const Home = () => {
     <div className="home-container">
       <div className="hero">
         <div className="container">
-          <div className="dark-overlay">
-            <div className="landing-inner">
-              <img src={headPhoto} alt="head-pic" className="head-photo" />
-              <h1 className="x-large">Matthew Michael Chapman Bower</h1>
-              <p className="lead">
-                Full-Stack (MERN) Engineer, Content-Creator, Investor, and
-                Entrepreneur based in Northern California.
-              </p>
-              <CardList />
-              <div className="block-container">
-                {/* <Block />
+          <div className="landing-inner">
+            <img src={headPhoto} alt="head-pic" className="head-photo" />
+            <h1 className="x-large">Matthew Michael Chapman Bower</h1>
+            <p className="lead">
+              Full-Stack (MERN) Engineer, Content-Creator, Investor, and
+              Entrepreneur based in Northern California.
+            </p>
+            <CardList />
+            <div className="block-container">
+              {/* <Block />
                 <Block />
                 <Block />
                 <Block /> */}
-              </div>
             </div>
           </div>
         </div>

@@ -2,12 +2,12 @@ import React from "react";
 // import resume from "../img/resume";
 import CardList from "../components/Card";
 
-const Portfolio = () => {
+const Subscribe = () => {
   return (
-    <div className="portfolio-container">
+    <div className="subscribe-container">
       <CardList />
     </div>
   );
 };
 
-export default Portfolio;
+export default Subscribe;

@@ -12,6 +12,10 @@
     width: 160px;
     margin-left: 65px;
   }
+
+  :nth-child(n+17):nth-child(-n+21) {
+    display: none;
+  }
 }
 
 @media (max-width: 1170px) {
