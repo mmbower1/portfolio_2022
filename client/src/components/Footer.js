@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Register from "./Register";
-import Login from "./Login";
 
 const Footer = () => {
   return (
@@ -53,9 +51,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Subscribe</h4>
-            <Register />
-            <Login />
+            <h4>Thank you!</h4>
           </div>
         </div>
       </div>

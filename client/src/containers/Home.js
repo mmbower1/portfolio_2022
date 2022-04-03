@@ -45,15 +45,8 @@ const Home = () => {
         feels perfect because I feel I can accomplish anything after
         understanding coding and how the internet works.
       </div>
-      <br />
       <hr className="dashed-divider-bottom"></hr>
-      <div className="lower-homepage">
-        <div className="left"></div>
-        <div className="right">
-          <Register />
-          <Login />
-        </div>
-      </div>
+      <div className="lower-homepage"></div>
     </div>
   );
 };

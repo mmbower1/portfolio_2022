@@ -1,6 +1,6 @@
 import React from "react";
 // import resume from "../img/resume";
-import CardList from "../components/Card";
+import CardList from "../components/CardList";
 import Register from "../components/Register";
 
 const Subscribe = () => {
