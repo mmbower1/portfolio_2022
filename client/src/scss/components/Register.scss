@@ -1,3 +1,16 @@
 .register-container {
-  z-index: 1000;
+  position: relative;
+  z-index: 2;
+
+  .form-group {
+    line-height: 60px;
+    z-index: 1000;
+  
+    .form-control {
+      border-radius: 3px;
+      height: 40px;
+      width: 500px;
+    }
+  }
 }
+
