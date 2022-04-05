@@ -8,7 +8,7 @@ const Subscribe = () => {
     <div>
       <div className="hero">
         <div className="container">
-          <div className="landing-inner">
+          <div className="landing-inner" id="landing-inner-register">
             <h1 className="x-large">Subscribe to my Youtube 'MB Tutorials'!</h1>
             <Register />
             <CardList />
