@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { register } from "../actions/userActions";
+import { setAlert } from "../actions/alert";
 
 const Register = () => {
   const dispatch = useDispatch();
@@ -17,12 +18,12 @@ const Register = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     if (name && email) {
-      alert("registered!");
+      setAlert("registered!");
       // setAlert(`Welcome`, 'success');
       dispatch(register(name, email));
     } else {
       // setAlert('Invalid Credentials', 'danger');
-      alert("error");
+      setAlert("error");
     }
   };
 
@@ -55,7 +56,7 @@ const Register = () => {
           </div>
           <div className="form-group">
             <button type="submit" className="btn btn-block">
-              Submit
+              SUBMIT
             </button>
           </div>
         </form>

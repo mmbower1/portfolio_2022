@@ -7,9 +7,12 @@
     z-index: 1000;
 
     .btn {
+      border-radius: 3px;
+      background: rgb(238, 75, 75);
       font-size: 20px;
-      height: 40px;
-      width: 85px;
+      margin-top: 20px;
+      height: 55px;
+      width: 100px;
     }
   
     .form-control {

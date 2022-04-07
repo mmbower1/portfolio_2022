@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // components
+import Alert from "./components/Alert";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Spinner from "./components/Spinner";
@@ -24,6 +25,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
+        <Alert />
         <Switch>
           <Suspense fallback={<Spinner />}>
             <div className="App">
